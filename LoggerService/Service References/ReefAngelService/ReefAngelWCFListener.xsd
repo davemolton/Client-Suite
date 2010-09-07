@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/ReefAngelWCFListener" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/ReefAngelWCFListener" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="ReefAngelParams">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="PH" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ParamTime" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Temp1" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Temp2" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Temp3" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ReefAngelParams" nillable="true" type="tns:ReefAngelParams" />
+  <xs:complexType name="ReefAngelRelayData">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Relay1MaskOff" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Relay1MaskOn" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Relay1On" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Relay2MaskOff" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Relay2MaskOn" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Relay2On" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Relay3MaskOff" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Relay3MaskOn" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Relay3On" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Relay4MaskOff" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Relay4MaskOn" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Relay4On" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Relay5MaskOff" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Relay5MaskOn" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Relay5On" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Relay6MaskOff" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Relay6MaskOn" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Relay6On" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Relay7MaskOff" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Relay7MaskOn" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Relay7On" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Relay8MaskOff" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Relay8MaskOn" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Relay8On" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ReefAngelRelayData" nillable="true" type="tns:ReefAngelRelayData" />
+</xs:schema>

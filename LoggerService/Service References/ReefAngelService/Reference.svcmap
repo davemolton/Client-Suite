@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="9fa0fdf6-4053-4295-a0e9-5fbb86b410fa" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8732/Design_Time_Addresses/ReefAngelWCFListener/ReefAngelListener/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="54a9c67b-12b1-41d6-8228-9d8a11624f67" SourceId="1" SourceUrl="http://localhost:8732/Design_Time_Addresses/ReefAngelWCFListener/ReefAngelListener/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="270a1459-e38e-4d80-98b4-53ffd280b899" SourceId="1" SourceUrl="http://localhost:8732/Design_Time_Addresses/ReefAngelWCFListener/ReefAngelListener/mex" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="15e766c8-a39f-4011-b36b-690eac749514" SourceId="1" SourceUrl="http://localhost:8732/Design_Time_Addresses/ReefAngelWCFListener/ReefAngelListener/mex" />
+    <MetadataFile FileName="ReefAngelWCFListener.xsd" MetadataType="Schema" ID="eaa803e5-b8cb-4e51-b699-90d636f427e3" SourceId="1" SourceUrl="http://localhost:8732/Design_Time_Addresses/ReefAngelWCFListener/ReefAngelListener/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
